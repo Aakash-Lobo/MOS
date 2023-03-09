@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  background: #ffffff url('https://images7.alphacoders.com/782/782527.jpg'); /* Background pattern from Subtle Patterns */
+  background: 100% 100% #ffffff url('https://images7.alphacoders.com/782/782527.jpg' ); /* Background pattern from Subtle Patterns */
 background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Coda', cursive;
@@ -27,6 +27,7 @@ background-repeat: no-repeat;
 }
 
 .container {
+  zoom: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
