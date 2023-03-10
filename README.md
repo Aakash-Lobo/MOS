@@ -30,6 +30,7 @@ JAVASCRIPT
 
 
 
+
 ## Deployment
 
 WordPress is a PHP, MySQL, and JavaScript based project, and uses Node for its JavaScript dependencies. A local development environment is available to quickly get up and running.
@@ -66,15 +67,8 @@ The next step is to install the Apache web server. In the Terminal window, type 
 sudo apt-get install apache2
 ```
 
-### 2. Install MySQL
 
-MySQL will be the database management system for your web application. To install MySQL, enter the command below in the Terminal window:
-
-```
-sudo apt-get install mysql-server
-```
-
-### 3. Install PHP
+### 4. Install PHP
 
 Once completed, check if you have successfully installed the latest PHP version using the command below:
 
@@ -82,7 +76,7 @@ Once completed, check if you have successfully installed the latest PHP version 
 sudo apt-get install php
 ```
 
-### 4. Make a Directory for Your Domain
+### 5. Make a Directory for Your Domain
 
 After successfully installing the LAMP stack, you can set up the virtual host. First, you must create a specific directory for storing your website files.
 
@@ -105,7 +99,7 @@ sudo chown -R $<your_username>:$<your_username> /var/www/domainname.com
 sudo chmod -R 755 /var/www/domainname.com 
 ```
 
-### 5. Create a Virtual Host File and Activate It
+### 6. Create a Virtual Host File and Activate It
 
 At this stage, we have successfully created a local website directory and a sample web page. The next step is to make the website accessible online. To do that, create a virtual host file inside the Apache default directory:
 
@@ -144,7 +138,7 @@ After successfully performing these actions, restart Apache with the following c
 sudo systemctl restart apache2
 ```
 
-### 6. Test Virtual Host
+### 7. Test Virtual Host
 
 The final step is to test the virtual host. But first, it is important to perform error testing on the virtual host configuration. Type the command below in the Terminal window:
 
