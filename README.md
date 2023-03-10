@@ -24,7 +24,7 @@ The main advantages of digital distribution over the previously dominant retail 
 Digital distribution also offers new structural possibilities for the whole video game industry, which, prior to the emergence of digital media as a relevant means of distribution, was usually built around the relationship of the video game developer, who produced the game, and the video game publisher, who financed and organized the distribution and sale. 
 
 ## Software Used
-HTML \n
+HTML()
 CSS
 JAVASCRIPT
 
