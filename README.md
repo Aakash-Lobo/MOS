@@ -68,7 +68,7 @@ sudo apt-get install apache2
 ```
 
 
-### 4. Install PHP
+### 2. Install PHP
 
 Once completed, check if you have successfully installed the latest PHP version using the command below:
 
@@ -76,7 +76,7 @@ Once completed, check if you have successfully installed the latest PHP version 
 sudo apt-get install php
 ```
 
-### 5. Make a Directory for Your Domain
+### 3. Make a Directory for Your Domain
 
 After successfully installing the LAMP stack, you can set up the virtual host. First, you must create a specific directory for storing your website files.
 
@@ -99,7 +99,7 @@ sudo chown -R $<your_username>:$<your_username> /var/www/domainname.com
 sudo chmod -R 755 /var/www/domainname.com 
 ```
 
-### 6. Create a Virtual Host File and Activate It
+### 4. Create a Virtual Host File and Activate It
 
 At this stage, we have successfully created a local website directory and a sample web page. The next step is to make the website accessible online. To do that, create a virtual host file inside the Apache default directory:
 
@@ -138,7 +138,7 @@ After successfully performing these actions, restart Apache with the following c
 sudo systemctl restart apache2
 ```
 
-### 7. Test Virtual Host
+### 5. Test Virtual Host
 
 The final step is to test the virtual host. But first, it is important to perform error testing on the virtual host configuration. Type the command below in the Terminal window:
 
