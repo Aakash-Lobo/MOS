@@ -1,6 +1,6 @@
 # Game Inventory
 
-Welcome to the Web Browser-based Game Inventory repository! A list of games can be found on the website. There are exactly 34 games in total, with games of various genres ranging from  old school text adventures, educational games, 8-bit platform games, browser-based games, indie games, GameJam projects, add-ons/maps/hacks/plugins for commercial games, libraries, frameworks, engines, you name it.
+Welcome to the Web Browser-based Game Inventory repository! A list of games can be found on the website. There are exactly 34 games in total, with games of various genres ranging from  old school retro games, educational games, 8-bit platform games, browser-based games, indie games, GameJam projects, add-ons/maps/hacks/plugins for commercial games, libraries, frameworks, engines, you name it.
 
 ### Index
 
@@ -24,8 +24,11 @@ The main advantages of digital distribution over the previously dominant retail 
 Digital distribution also offers new structural possibilities for the whole video game industry, which, prior to the emergence of digital media as a relevant means of distribution, was usually built around the relationship of the video game developer, who produced the game, and the video game publisher, who financed and organized the distribution and sale. 
 
 ## Software Used
+HTML
+CSS
+JAVASCRIPT
 
-## Output
+
 
 ## Deployment
 
